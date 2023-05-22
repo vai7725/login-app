@@ -4,7 +4,7 @@
   box-shadow: 0 4px 30px #4747470b;
   backdrop-filter: blue(7.1px);
   border: 1px solid #ffffff4d;
-  @apply border-4 border-gray-50 shrink-0 h-[95%] w-[30%] rounded-3xl py-20 px-7 min-w-max;
+  @apply border-4 border-gray-50 shrink-0 h-[95%] w-[40%] rounded-3xl py-20 px-7 min-w-max;
 }
 
 .profile_img {
@@ -23,4 +23,8 @@
 
 .btn:hover {
   background-color: #ff6a6a;
+}
+
+.fileTypeInput{
+  display: none;
 }
